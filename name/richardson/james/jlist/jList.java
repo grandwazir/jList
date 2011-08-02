@@ -83,7 +83,7 @@ public class jList extends JavaPlugin {
         int availableChars = (lineLength * currentLine) - messageLength;
         int lengthToAppend = player.getName().length() + ChatColor.stripColor(seperator).length();
         
-        if (lengthToAppend > availableChars) {
+        if (lengthToAppend >= availableChars) {
           message.append("/n");
           hiddenChars = hiddenChars + 2;
           currentLine++;
