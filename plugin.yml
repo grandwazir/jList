@@ -1,0 +1,10 @@
+name: jList
+main: name.richardson.james.jlist.jList
+version: 1.1.0
+author: James Richardson (grandwazir)
+description: Multiworld aware player listing using displayNames
+website: https://github.com/grandwazir/jList 
+commands:
+  list:
+    description: 'List online players'
+    usage: '/list <world>'
